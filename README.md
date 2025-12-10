@@ -71,17 +71,22 @@ These scores indicate strong performance on imbalanced churn data.
 
 ---
 
-## 🔹 Streamlit Web Interface Features
+## 🌐 Gradio Web Interface
 
-- User-friendly input form
-- Manual customer data entry
-- Real-time churn probability prediction
-- Risk-level classification:
-  - ✅ Low Risk
-  - ⚠️ Medium Risk
-  - ❌ High Risk
+This project includes a Gradio-based web application that allows users to:
+
+- Enter customer details using dropdowns and sliders
+- Predict the probability of customer churn in real-time
+- View churn risk as **Low**, **Medium**, or **High**
 
 ---
+
+### ▶️ Run the Gradio App Locally
+
+Make sure your virtual environment is active and dependencies are installed:
+
+```bash
+pip install -r requirements.txt
 
 ## 🔹 How to Run the Project Locally
 
